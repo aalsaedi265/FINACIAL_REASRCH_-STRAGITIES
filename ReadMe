@@ -9,3 +9,21 @@
 this is me doing some projects to learn how to be quant dev, there are some notes just for me
 if you find something in here go head and take it in your work i fully legally consistan 
 best of luck
+
+
+Type ssh-keygen and press <Enter>. For each prompt do not type anything, just continue to press <Enter>. 
+
+Type ##   cat ~/.ssh/id_rsa.pub | clip.exe   ## and press <Enter>. This will copy your SSH key to your clipboard
+
+Open the GitHub New SSH key form (https://github.com/settings/ssh/new) (Note: you need to be logged in to GitHub to access that link.)
+
+Type "My personal PC" in the "Title" input field
+Paste what's on your clipboard from step seven in the "Key" input field
+
+Click "Add SSH Key"
+
+
+
+if top not working, use these to find and copy manual then send to github
+Get-ChildItem -Path ~/.ssh
+Get-Content ~/.ssh/id_ed25519.pub
