@@ -1,8 +1,41 @@
 
 ## Notes
+-if using powerShell to activate you will need to do 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process   than actiavate 
+
+HARD OG WAY TO GET ACCESS IF THING ARE NOT COPPERATING 
+====>>>>>      anaconda-navigator   <========== allows access anacond tools like jupyter based on path using Command promtpt allows gui to access labs or notebook and others
+
+jupyter lab  => directory will open it right in that directory without gu
+
+BOTH NEED TO BE RAN IN ANACONDA PROMPT
 
 
+CREATE VENV
+python -m venv imageClassification   => in directory run creates vritual with following name imageClassification (windows)
 
+ERROR
+if scripts are disabled due to security policy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -ExecutionPolicy Restricted
+
+if "jupyter lab" command is having hard time
+conda update jupyterlab
+
+
+ACTIVATE
+.\envName\Scripts\activate
+
+deactivate => turn off
+
+LINK VENV TO JUPYTER
+
+py -m pip install ipykernel => link vene to jupyter
+
+py -m ipykernel install --name=envName
+
+py -m jupyter kernelspec list
+py -m jupyter kernelspec uninstall
 
 ## Overview
 
