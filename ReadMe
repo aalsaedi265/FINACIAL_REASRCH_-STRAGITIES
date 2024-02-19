@@ -1,7 +1,8 @@
 
 ## Notes
 -if using powerShell to activate you will need to do 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process   than actiavate 
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process   than actiavate 
+if sklearn not installing use  # pip install scikit-learn  #
 
 HARD OG WAY TO GET ACCESS IF THING ARE NOT COPPERATING 
 ====>>>>>      anaconda-navigator   <========== allows access anacond tools like jupyter based on path using Command promtpt allows gui to access labs or notebook and others
